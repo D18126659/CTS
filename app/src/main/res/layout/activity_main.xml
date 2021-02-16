@@ -4,15 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#89cff0"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="294dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="402dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stjohn" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="209dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="467dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="200dp"
+        android:background="@android:color/white"
+        android:backgroundTint="#0000ff"
+        android:drawableTint="@color/teal_200"
+        android:fontFamily="@font/doppio_one"
+        android:shadowColor="@color/white"
+        android:text="Login"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="75dp"
+        android:layout_height="89dp"
+        android:backgroundTint="#0000ff"
+        android:text="T"
+        android:textSize="24sp"
+        app:backgroundTint="@color/red"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="75dp"
+        android:layout_height="89dp"
+        android:backgroundTint="#0000ff"
+        android:text="T"
+        android:textSize="50sp"
+        app:backgroundTint="@color/red"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="6dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
